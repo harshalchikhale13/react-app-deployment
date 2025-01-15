@@ -13,7 +13,8 @@ spec:
         app: react-speed-reader
     spec:
       containers:
-      - name: react-speed-reader
-        image: 396608810227.dkr.ecr.ap-south-1.amazonaws.com/react-image-registry:latest
-        ports:
-        - containerPort: 80
+        - name: react-speed-reader
+          image: 396608810227.dkr.ecr.ap-south-1.amazonaws.com/react-image-registry
+          ports:
+            - containerPort: 80
+          imagePullPolicy: Always
