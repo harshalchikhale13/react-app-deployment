@@ -2,7 +2,7 @@
   "name": "read-speeder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harshalchikhale13.github.io/react-deployment-app",
+  "homepage": "https://harshalchikhale13.github.io/react-app-deployment",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
