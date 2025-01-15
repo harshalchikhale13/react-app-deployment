@@ -2,7 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 
 const ReadingDashboard = () => {
   const [words, setWords] = useState([]);
+  // eslint-disable-next-line
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  // eslint-disable-next-line
   const [speed, setSpeed] = useState(500);
   const [intervalId, setIntervalId] = useState(null);
   const textInputRef = useRef(null);
