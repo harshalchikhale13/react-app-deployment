@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-speed-reader
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: react-speed-reader
+  template:
+    metadata:
+      labels:
+        app: react-speed-reader
+    spec:
+      containers:
+      - name: react-speed-reader
+        image: 396608810227.dkr.ecr.ap-south-1.amazonaws.com/react-image-registry:latest
+        ports:
+        - containerPort: 80
